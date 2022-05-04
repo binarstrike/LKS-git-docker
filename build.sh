@@ -1,5 +1,5 @@
 #!/bin/sh
-TAG=flask-webserver
+TAG=flask-webserver:latest
 if [ ! -z "$@" ]; then
     docker build "$@" --tag $TAG .
 else
