@@ -1,4 +1,4 @@
 note.txt
 .dockerignore
 .gitignore
-app/__pycache__/*.pyc
+.\app\__pycache__
