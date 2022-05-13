@@ -34,4 +34,4 @@ def user():
         return res, 200, {'Content-Type' : 'text/plain; charset=utf-8'}
  
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=80)
+    app.run(debug=True, host="0.0.0.0")
