@@ -28,9 +28,9 @@ def product():
 def user():
     if request.method == 'GET':
         nama = request.args.get('name')
-        ID = request.args.get('id')
+        id = request.args.get('id')
         
-        res = "Halo {0}\nid : {1}\n".format(nama, ID)
+        res = "Halo {0}\nid : {1}\n".format(nama, id)
         return res, 200, {'Content-Type' : 'text/plain; charset=utf-8'}
  
 if __name__ == "__main__":
